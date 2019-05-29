@@ -33,6 +33,9 @@ displayVal.innerHTML = '545657';
 
 // Reset to 0 when AC button is clicked
 clearBtn.onclick = () => {
+    numberArray = '';
+    operatorArray = '';
+    previousNumber = '0';
     currentNumber = '0';
     displayVal.innerHTML = currentNumber;
 }
