@@ -8,6 +8,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, rgb(15, 163, 236), rgb(247, 239, 13));
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 .calc-btn {
@@ -79,5 +87,6 @@ h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 

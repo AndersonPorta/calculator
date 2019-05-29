@@ -48,28 +48,28 @@ var performOperation = (clickObj) => {
         case '+':
             previousNumber = currentNumber;
             currentNumber = '0';
-            displayVal.innerText = currentNumber;
+            displayVal.innerText = previousNumber;
             evalStringArray.push(previousNumber);
             evalStringArray.push('+');
             break;
         case '-':
             previousNumber = currentNumber;
             currentNumber = '0';
-            displayVal.innerText = currentNumber;
+            displayVal.innerText = previousNumber;
             evalStringArray.push(previousNumber);
             evalStringArray.push('-');        
             break;
         case 'x':
             previousNumber = currentNumber;
             currentNumber = '0';
-            displayVal.innerText = currentNumber;
+            displayVal.innerText = previousNumber;
             evalStringArray.push(previousNumber);
             evalStringArray.push('*');
             break;
         case '÷':
             previousNumber = currentNumber;
             currentNumber = '0';
-            displayVal.innerText = currentNumber;
+            displayVal.innerText = previousNumber;
             evalStringArray.push(previousNumber);
             evalStringArray.push('/');
             break;
